@@ -16,13 +16,6 @@ app.go()
 print(app.getAllCheckBoxes())
 
 
-Name: dskjdslf
-Pas: slkds
 
-select plants
-pop up window()
-
-making chart.
-pop up chart()
 
 
