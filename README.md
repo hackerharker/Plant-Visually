@@ -2,6 +2,8 @@
 
 Hybrid Python Application and Data Visualization Project Proposal
 
+Note: to use application login with the username "plant_lover1" and the password "achillea".
+
 Project Description
 
 This project is a hybrid python application and data science project in that it allows users to generate a visualization based on data from plants that they have selected. The plant data set comes from [Calscape](https://calscape.org/). This project is the same topic as my [Project 1](https://git.generalassemb.ly/hackerharker/Project01), and will even have similarly named classes but the classes will be programmed in a different way, additional classes are added, objects are created based on an external dataset, and instead of generating a chart by printing text, the data is used to produced a data visualization of select frames using MatPlotLib.
