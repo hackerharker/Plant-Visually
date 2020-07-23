@@ -2,7 +2,7 @@
 
 Hybrid Python Application and Data Visualization Project Proposal
 
-Note: to use application login with the username "plant_lover1" and the password "achillea".
+NOTE: to use application login with the username "plant_lover1" and the password "achillea". 
 
 Project Description
 
