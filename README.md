@@ -5,7 +5,7 @@ Hybrid Python Application and Data Visualization Project
 NOTE: to use application login with the username "plant_lover1" and the password "achillea". 
 **NOTE: to use the application without creating a new user, login with the username "plant_lover1" and the password "achillea"**
 
-
+![Plant Visually Demo](/plant-visually.gif)
 
 
 ## Introduction
