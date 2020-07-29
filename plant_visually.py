@@ -1,4 +1,4 @@
-`# first step is to import all libraries
+# first step is to import all libraries
 
 # import pandas to manipulate data frame
 import pandas as pd
@@ -283,7 +283,7 @@ class Web_Application:
                     # this uses the make_chart method defined in this class
                     self.make_chart(user)
                 if user_input == "4":
-                    print("Goodbye.")
+                    print(f"Goodbye, {user.username}.")
             login_input= input("Would you like to login? Press L. Would you like to quit? Press Q.")
 
           
