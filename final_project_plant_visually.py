@@ -1,4 +1,4 @@
-# first step is to import all libraries
+`# first step is to import all libraries
 
 # import pandas to manipulate data frame
 import pandas as pd
@@ -166,13 +166,14 @@ class Chart_Generator:
         # This formats the labels to read along the x axis
         plt.setp(ax.get_xticklabels(), rotation=-30, ha="left",
                      rotation_mode="anchor")
-        #fig.axes.get_xaxis().set_visible(False)
-        #fig.axes.get_yaxis().set_visible(False)
+        # the following turns the edges of the axis off
         ax.spines['right'].set_visible(False)
         ax.spines['left'].set_visible(False)
         ax.spines['top'].set_visible(False)
         ax.spines['bottom'].set_visible(False)
+        # the following makes the text more condensed so it fits
         plt.tight_layout()
+        # the following is needed to get the chart to show correctly when using Jupyter notebook
         plt.show()
 
 """
@@ -282,7 +283,7 @@ class Web_Application:
                     # this uses the make_chart method defined in this class
                     self.make_chart(user)
                 if user_input == "4":
-                    print(f"Goodbye, {user.username}.")
+                    print("Goodbye.")
             login_input= input("Would you like to login? Press L. Would you like to quit? Press Q.")
 
           
