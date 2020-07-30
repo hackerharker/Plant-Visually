@@ -1,12 +1,9 @@
-https://github.com/hackerharker/PYTH-5-19-Final-Project# PYTH-5-19-Final-Project
-
 Hybrid Python Application and Data Visualization Project
+
+![Plant Visually Demo](plant_visually.gif)
 
 NOTE: to use application login with the username "plant_lover1" and the password "achillea". 
 **NOTE: to use the application without creating a new user, login with the username "plant_lover1" and the password "achillea"**
-
-![Plant Visually Demo](https://github.com/hackerharker/Plant-Visually/blob/master/plant_visually.gif)
-
 
 ## Introduction
 
