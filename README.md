@@ -14,20 +14,20 @@ The application uses a plant data set from [Calscape](https://calscape.org/) tha
 
 ## Libraries
 
-* Pandas-
-* Numpy-
-* MatPlotLib-
-* appJar-
+* Pandas- used for loading, storing and filtering data
+* MatPlotLib- a heatmap that maps a number to a color was used to generate the chart
+* Numpy- used to create an index of the colors for the MatPlotLib heatmap
+* appJar- for the web application class GUI checkboxes
 
 ## Functional Components
 
-**Web_Application_Class**- simulates an interaction with a web application that allows users to login with a password (private variable), create a plant list, save their plant list, and create a visualization based on their plant list. This class can also accept new users. There is a function in this class that uses [appJar](http://appjar.info/) to create a Boolean widget checkbox for plant selection. The web application interface is text-based.
+**Data Processing Class**- This class reads in a .csv file from [Calscape](https://calscape.org/) and uses pandas to filter the data as needed to create the chart. I am specifically interested in the columns with the current botanical name, the plant type (annual or perennial), evergreen/deciduous, flowers (which indicates flower color), the flowering season, and the RGB color corresponding to flower color. The raw data lists the season that the plants are flowering but does not list by month, and so I have a function that convert the season to specific months for the chart. 
 
-User_Class- stores user profiles and their list of plants for the web app class.
+**Chart Generator Class**- this class creates a bar chart visualization showing when what plant is blooming or displaying green foliage from a list of plants. If the plant is flowering during a given month, the chart displays the folower color. If there is no flower color but the plant is listed as evergreen then the chart displays green. If the plant isn't flowering and isn't evergreen then the chart displays white. The visualization lists the plants on the y axis and the months on the x axis. The chart uses the third party libraries Numpy and MatPlotLib. 
 
-**Data_Processing_Class**- This class will read in a .csv file from a plant database and use pandas to manipulate the dataframe as needed to create the chart. The data has been pulled from a website, Calscape, which aggregates data about native plants. I am specifically interested in the columns with the current botanical name, the plant type (annual or perennial), evergreen/deciduous, flowers (which indicates flower color), and flowering season. Interpolation will be necessary to format the data from the calscape dataset into a usable form so that users can create a chart from it. For example, the data lists the season that the plants are flowering but does not list by month, and so I will need a function to convert the season to specific months for the chart. Also if the plant is listed as being deciduous for a particular season then I will need a function to convert that information to show an empty bar on the chart for the months in that season. If the plant is listed as evergreen then I will want the bar on the chart to show as green when the plant is not flowering and showing a flower color on the chart.
+**User Class**- stores user profiles and allows users to create a list of plants. [AppJar](http://appjar.info/) is used to create a Boolean widget checkbox for plant selection. The web application interface is text-based.
 
-**Chart_Class**- this class creates a bar chart visualization showing when what plant is blooming or displaying green foliage from a list of plants. The planting visualization will list the plants on the y axis and the months on the x axis. For each month the plants have a color. The color is the flower color if the plant is blooming, otherwise green if it is evergreen, and blank if it is deciduous, dormant for certain months, or an annual that has died back for the year. The chart will use the third party library, MatPlotLib. 
+**Web Application Class**- simulates an interaction with a web application that allows users to login with a password (private variable), and provides them with a text-based menu of options. This class retrieves a users plant list and calls on the chart generator class to create a visualization based on that plant list. This class also creates new users. 
 
 ## Future Work
 
