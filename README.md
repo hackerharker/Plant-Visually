@@ -14,7 +14,7 @@ The application uses a plant data set from [Calscape](https://calscape.org/) tha
 
 ## Libraries
 
-* Pandas- used for loading, storing and filtering data
+* pandas- used for loading, storing and filtering data
 * MatPlotLib- a heatmap that maps a number to a color was used to generate the chart
 * Numpy- used to create an index of the colors for the MatPlotLib heatmap
 * appJar- for the web application class GUI checkboxes
