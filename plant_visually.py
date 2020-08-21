@@ -33,6 +33,8 @@ class Data_Processing:
         '''
         self.df.dropna(inplace=True)  
         
+        self.df.sort_values(by=['Current Botanical Name'], inplace=True, ascending=False)
+
         # This applies the seasons to list function to the flowering season data frame
         self.df["Flowering Season"] = self.df["Flowering Season"].apply(self.seasons_to_list)
         
