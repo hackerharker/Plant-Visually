@@ -35,9 +35,13 @@ Future efforts include integrating the application into a website with an improv
 
 In addition to being a tool to increase use of native plants and biodiversity, shifts in plant phenology can be used to track plant responses to climate change. It would be great if this application could also collect information based on individuals experiences with plants to get more fine grain data on specific regions and microclimates as well as to track shifts over time that could be the result of climate change. One potential option is to use locally collected phenological information from iNaturalist to continually update the program with relevant data.
 
+## Interface and Chart Example with a Selection of Plants
+
 ![Partial Chart GUI Example](partial_chart_GUI.png)
 
 ![Partial Chart Chart Example](partial_chart.png)
+
+## Interface and Chart Example with all Plants Selected
 
 ![Full Chart GUI Example](full_chart_GUI.png)
 
