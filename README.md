@@ -6,11 +6,11 @@
 
 ## Summary
 
-This project allows users to generate a visualization based on data from a list of plants they select. This project focuses on plants that are tolerant of or adapted to serpentine soils and that are native to the Potrero Hill Neighborhood in San Francisco. This tool will be used to deveop the planting plan for the [Eco-Patch](https://www.greenbenefit.org/project-blog/2020/7/10/7h2nn73s0ae13hhxm61nwnjdnvkkls) project, which seeks to encourage people to use native plants with high habitat and biodiversity value. After using it to develop the Eco-Patch planting plan, this tool will be provided as part of an outreach effort as a way to further engage people with the Eco-Patch plants. The intention is that this tool, in coordination with physical Eco-Patch garden, will help people figure out which combinations of plants provide year-round interest in the form of flowers or green foliage. The beta version of this application can be found [here](https://github.com/hackerharker/Plant-Visually_Beta-Version).
+This project allows users to generate a visualization based on data from a list of plants they select. This project focuses on plants that are tolerant of or adapted to serpentine soils and that are native to the Potrero Hill Neighborhood in San Francisco. This tool was used to develop the planting plan for the [Eco-Patch Test Garden](https://field-collective.land/blog/) project, which seeks to encourage people to use native plants with high habitat and biodiversity value. In the future, this tool will be provided as part of an outreach effort as a way to further engage people with the Eco-Patch plants. The intention is that this tool, in conjunction with physical Eco-Patch garden, will help people figure out which combinations of plants provide year-round interest in the form of flowers or green foliage and make them more inclined to use these native plants. The beta version of this application can be found [here](https://github.com/hackerharker/Plant-Visually_Beta-Version).
 
 ## Data 
 
-The application uses a plant data set from [Calscape](https://calscape.org/) that was downloaded as a spreadsheet and saved as a .csv file. Although this data set is a limit number of plants based on a small geographic region that are adapted to or tolerant of serpentines soils, because it works with Calscape data it has potential to be scaleable. In order to make the application print a color associated with the flower season, a column of RGB values corresponding to flower color was added to the spreadsheet prior to briging it into pandas.
+The application uses a plant data set from [Calscape](https://calscape.org/) that was downloaded as a spreadsheet and saved as a .csv file. Although this data set is a limit number of plants based on a small geographic region that are adapted to or tolerant of serpentine soils, because it works with Calscape data it has potential to be scaleable. In order to make the application print a color associated with the flower season, a column of RGB values corresponding to flower color was added to the spreadsheet prior to briging it into pandas.
 
 ## Libraries
 
@@ -31,6 +31,14 @@ The application uses a plant data set from [Calscape](https://calscape.org/) tha
 
 ## Future Work
 
-Future efforts include integrating the application into a website or a visual dashboard such as Plotly with an improved user interface. While the current application uses a limited color palette, eventually I would like to incorporate more diversity in the colors so that they more accurately represent the true flower and foliage color. for example, I would like to incorporate the nuances in the color of green foliage, as it can be used to further inform planting design decisions. 
+Future efforts include integrating the application into a website with an improved user interface. While the current application uses a limited color palette, eventually I would like to incorporate more diversity in the colors so that they more accurately represent the true flower and foliage color. for example, I would like to incorporate the nuances in the color of green foliage, as it can be used to further inform planting design decisions. 
 
-In addition to being a tool to increase use of native plants and biodiversity, shifts in plant phenology can be used to track plant responses to climate change. It would be great if this application could also collect information based on individuals experiences with plants to get more fine grain data on specific regions and microclimates as well as to track shifts over time that could be the result of climate change.
+In addition to being a tool to increase use of native plants and biodiversity, shifts in plant phenology can be used to track plant responses to climate change. It would be great if this application could also collect information based on individuals experiences with plants to get more fine grain data on specific regions and microclimates as well as to track shifts over time that could be the result of climate change. One potential option is to use locally collected phenological information from iNaturalist to continually update the program with relevant data.
+
+![Partial Chart GUI Example](partial_chart_GUI.png)
+
+![Partial Chart Chart Example](partial_chart.png)
+
+![Full Chart GUI Example](full_chart_GUI.png)
+
+![Full Chart Example](full_chart.png)
