@@ -33,7 +33,7 @@ The application uses a plant data set from [Calscape](https://calscape.org/) tha
 
 Future efforts include integrating the application into a website with an improved user interface. While the current application uses a limited color palette, eventually I would like to incorporate more diversity in the colors so that they more accurately represent the true flower and foliage color. For example, I would like to incorporate the nuances in the color of green foliage, as it can be used to further inform planting design decisions. 
 
-In addition to being a tool to increase use of native plants and biodiversity, shifts in plant phenology can be used to track plant responses to climate change. It would be great if this application could also collect information based on individuals experiences with plants to get more fine grain data on specific regions and microclimates as well as to track shifts over time that could be the result of climate change. One potential option is to use locally collected phenological information from iNaturalist to continually update the program with relevant data.
+In addition to being a tool to increase use of native plants and biodiversity, shifts in plant phenology can be used to track plant responses to climate change. It would be great if this application could also collect information based on individuals' experience with plants to get more fine grain data on specific regions and microclimates as well as to track shifts over time that could be the result of climate change. One potential option is to use locally collected phenological information from iNaturalist to continually update the program with relevant data.
 
 ## Interface and Chart Example with a Selection of Plants
 
