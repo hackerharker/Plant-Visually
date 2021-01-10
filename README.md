@@ -37,9 +37,9 @@ In addition to being a tool to increase use of native plants and biodiversity, s
 
 ## Interface and Chart Example with a Selection of Plants
 
-![Partial Chart GUI Example](partial_chart_GUI.png)
+![Partial Chart GUI Example](partial_chart_GUI2.png)
 
-![Partial Chart Chart Example](partial_chart.png)
+![Partial Chart Chart Example](partial_chart2.png)
 
 ## Chart Example with all Plants Selected
 
